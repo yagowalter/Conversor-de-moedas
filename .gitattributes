@@ -1,5 +1,9 @@
-*.dart linguist-detectable=true
-*.dart linguist-language=Dart
-
 android/** linguist-vendored
 ios/** linguist-vendored
+*.cpp linguist-vendored
+*.cc linguist-vendored
+*.h linguist-vendored
+CMakeLists.txt linguist-detectable=false
+
+*.dart linguist-language=Dart
+lib/** linguist-language=Dart
